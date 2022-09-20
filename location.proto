@@ -1,0 +1,11 @@
+syntax = "proto3";
+package eaglemoor.testproto;
+option go_package = "github.com/eaglemoor/testproto";
+
+enum Locale {
+  LOCALE_UNSPECIFIED = 0;
+  LOCALE_SPORTS = 1;
+  LOCALE_CYBER = 2;
+  LOCALE_UA_TRIBUNA = 3;
+  LOCALE_BY_TRIBUNA = 4;
+}
